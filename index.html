@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song bingo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenPadre">
+        <div class="main">
+           
+            <div class="contBingo">
+                <div class="contRuleta">
+                    
+                    <div class="ruleta">
+                        <img id="roulette" class="" src="./src/img/ruleta2.png" alt="Ruleta">
+                        <button id="nextBtn" class="next-btn">Siguiente</button>
+                    </div>
+                    <div id="infoCancion" class="infoCancion">
+                        <div class="header">
+                            <h1>BINGO MUSICAL</h1>
+                        </div> 
+                        <div class=headerinfoCancion>
+                           <h2 >Cancion </h2>
+                           <button id="stop-btn" class="stop-btn">♫</button> 
+                        </div>
+                        
+                        <h3 id="songTitle" class="songTitle"></h3>
+                    </div>
+                </div>
+                <div class="lcanciones" id="lcanciones"></div>
+            </div>
+      </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
