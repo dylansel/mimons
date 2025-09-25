@@ -1,167 +1,74 @@
 let songs = [
-  {
-    title: "Despacito",
-    path: "src/songs/Despacito.mp3",
-    played: false
+  { 
+    title: "KAKDILA", 
+    path: "src/songs/עומר אדם  קאקדילה (Prod. By Moshe & Ofek).mp3", 
+    played: false,
+    hStart: 35 
   },
-  {
-    title: "Caraluna",
-    path: "src/songs/Bacilos - Caraluna.mp3",
-    played: false
+  { 
+    title: "BASHANA HABAA", 
+    path: "src/songs/Bashana Haba'a - בשנה הבאה.mp3", 
+    played: false,
+    hStart: 60 
   },
-  {
-    title: "Bassa Sababa",
-    path: "src/songs/Bassa Sababa.mp3",
-    played: false
+  { 
+    title: "AM ISRAEL JAI", 
+    path: "src/songs/Am Israel Jai.mp3", 
+    played: false,
+    hStart: 40 
   },
-  {
-    title: "Calma",
-    path: "src/songs/Calma.mp3",
-    played: false
+  { 
+    title: "BE ROSH HASHANA", 
+    path: "src/songs/Berosh Hashana Ish lereeu.mp3", 
+    played: false,
   },
-  {
-    title: "Dayenu",
-    path: "src/songs/Dayenu.mp3",
-    played: false
+  { 
+    title: "ANAJNU MAMINIM", 
+    path: "src/songs/Anajnu ma'aminim.mp3", 
+    played: false,
+    hStart: 32 
+
   },
-  {
-    title: "Don Miranda",
-    path: "src/songs/Don Miranda.mp3",
-    played: false
+  { 
+    title: "IAJAD", 
+    path: "src/songs/Yajad Shir la ahava.mp3", 
+    played: false,
+    hStart: 62 
   },
-  {
-    title: "Ivri Anochi",
-    path: "src/songs/Ivri Anochi.mp3",
-    played: false
+  { 
+    title: "MI SHEEMAAIM", 
+    path: "src/songs/Mi shema'amim - HebreoEspañol - Eyal Golan.mp3", 
+    played: false,
+    hStart: 68
   },
-  {
-    title: "La Bicicleta",
-    path: "src/songs/La Bicicleta.mp3",
-    played: false
+  { 
+    title: "SHAVUA TOV", 
+    path: "", 
+    played: false,
   },
-  {
-    title: "Limbo",
-    path: "src/songs/Limbo.mp3",
-    played: false
+  { 
+    title: "SHEL SIMJA", 
+    path: "src/songs/ליאור נרקיס ועומר אדם מהפכה של שמחה Lior Narkis and Omer Adam.mp3", 
+    played: false,
+    hStart: 50
   },
-  {
-    title: "Mi shemaim",
-    path: "src/songs/Mi shema'amim.mp3",
-    played: false
+  { 
+    title: "SHANA TOVA", 
+    path: "", 
+    played: false,
   },
-  {
-    title: "Mil horas",
-    path: "src/songs/Mil horas.mp3",
-    played: false
+  { 
+    title: "TAPUCHIM UDVASH", 
+    path: "", 
+    played: false,
   },
-  {
-    title: "Niña Bonita",
-    path: "src/songs/Niña Bonita.mp3",
-    played: false
-  },
-  {
-    title: "Redoblantes",
-    path: "src/songs/Redoblantes.mp3",
-    played: false
-  },
-  {
-    title: "Terminal 3- טרמינל 3",
-    path: "src/songs/Terminal 3- טרמינל 3.mp3",
-    played: false
-  },
-  {
-    title: "Tudo Bom",
-    path: "src/songs/Tudo Bom.mp3",
-    played: false
-  },
-  {
-    title: "Tusa",
-    path: "src/songs/Tusa.mp3",
-    played: false
-  },
-  {
-    title: "Aji israeli",
-    path: "src/songs/התקווה .mp3",
-    played: false
-  },
-  {
-    title: "Jaberot shelaj",
-    path: "src/songs/עומר אדם - חברות שלך.mp3",
-    played: false
-  },
-  {
-    title:"Rak rotza lirkod",
-    path: "src/songs/ היא רק רוצה לרקוד.mp3",
-    played: false
-  },
-  {
-    title: "dobigal",
-    path: "src/songs/רון נשר#.mp3",
-    played: false
-  },
-  {
-    title: "Cae el Sol",
-    path: "src/songs/Cae el Sol.mp3",
-    played: false
-  },
-  {
-    title: "Amor Clasificado",
-    path: "src/songs/Amor Clasificado.mp3",
-    played: false
-  },
-  {
-    title: "3 Estrellas en el Conjunto",
-    path: "src/songs/3 Estrellas en el Conjunto.mp3",
-    played: false
-  },
-  {
-    title: "Andas En Mi Cabeza",
-    path: "src/songs/Andas En Mi Cabeza.mp3",
-    played: false
-  },
-  {
-    title: "Zahav",
-    path: "src/songs/Zahav.mp3",
-    played: false
-  },
-  {
-    title: "Ma Nishtana",
-    path: "src/songs/Mah Nishtanah.mp3",
-    played: false
-  },
-  {
-    title: "Eliahu Hanabi",
-    path: "src/songs/Eliahu Hanabi.mp3",
-    played: false
-  },
-  {
-    title: "Silsulim",
-    path: "src/songs/Silsulim.mp3",
-    played: false
-  },
-  {
-    title: "Israel Sheli",
-    path: "src/songs/Israel Sheli.mp3",
-    played: false
-  },
-  {
-    title: "Od Naguia",
-    path: "src/songs/Od Naguia.mp3",
-    played: false
-  },
-  {
-    title: "Hine Ma Tov",
-    path: "src/songs/Hine Ma Tov.mp3",
-    played: false
-  },
-  {
-    title: "Et Rekod",
-    path: "src/songs/Et Rekod.mp3",
-    played: false
+  { 
+    title: "DIP YOUR APPLE", 
+    path: "src/songs/Dip Your Apple - Fountainheads Rosh Hashanah.mp3", 
+    played: false,
   },
 
 ];
-
 
 function fadeOut(audio) {
   let fadeInterval = setInterval(() => {
@@ -179,8 +86,6 @@ function fadeOut(audio) {
   }, 50);
 }
 
-
-
 function fadeIn(audio) {
   audio.volume = 0;
   audio.play();
@@ -197,145 +102,125 @@ function fadeIn(audio) {
   }, 50);
 }
 
-
-
 const audioCtx = new AudioContext();
 const spinSound = new Audio('/src/songs/Redoblantes.mp3');
 
 function playSound() {
-  
-  spinSound.currentTime = 3.2; // Establecer inicio en 1:10
+  spinSound.currentTime = 3.2; 
   spinSound.play();
 }
 
+let audio = new Audio();
+const $contCancion = document.getElementById('songTitle');
 
-  let audio = new Audio();
-  const $contCancion = document.getElementById('songTitle');
-  function iCancionByPath(path) {
-    for (let i = 0; i < songs.length; i++) {
-      if (songs[i].path === path) {
-        return i;
-      }
+function iCancionByPath(path) {
+  for (let i = 0; i < songs.length; i++) {
+    if (songs[i].path === path) {
+      return i;
     }
-    return -1; // Retorna -1 si no se encuentra una coincidencia
   }
-  
-  function aleatorio(minimo, maximo) {
-    return Math.floor(Math.random() * (maximo - minimo + 1)) + minimo;
+  return -1;
+}
+
+function aleatorio(minimo, maximo) {
+  return Math.floor(Math.random() * (maximo - minimo + 1)) + minimo;
+}
+
+const $roulette = document.getElementById("roulette");
+function start() {
+  $roulette.classList.add("roulette");
+  setTimeout(()=>{
+    $roulette.classList.remove("roulette");
+  },1000); // Ruleta más rápida: dura 1 segundo
+}
+
+const stateBtn = (state) => {
+  const $btn = document.getElementById("nextBtn")
+  if(!state){
+    $btn.disabled = true;
+    $btn.classList.add("disable")
+  }else{
+    $btn.disabled = false;
+    $btn.classList.remove("disable")
   }
-  const $roulette = document.getElementById("roulette");
-  function start() {
-    $roulette.classList.add("roulette");
+}
+
+const isEnd = ()=>{
+  const cancionesPorReproducir = songs.filter(function(s) {
+    return s.played === false;
+  });
+  return cancionesPorReproducir.length
+}
+
+window.addEventListener("click", e=>{
+  let $btn = e.target;
+  if($btn.matches("#nextBtn") && isEnd()){
+    stateBtn(false)
+    fadeOut(audio)
+    start() 
+    playSound()
+    $contCancion.classList.remove("mostrando")
     setTimeout(()=>{
-      $roulette.classList.remove("roulette");
-    },3000) 
+      tirar()
+      stateBtn(isEnd()>0)
+    },1500) // Reducido el delay para que arranque rápido
   }
-  const stateBtn = (state) => {
-    const $btn = document.getElementById("nextBtn")
-    if(!state){
-      $btn.disabled = true;
-      $btn.classList.add("disable")
-    }else{
-      $btn.disabled = false;
-      $btn.classList.remove("disable")
+  if($btn.matches("#stop-btn")){
+    if (audio.paused) {
+      fadeIn(audio); 
+    } else {
+      fadeOut(audio); 
     }
   }
+})
 
+window.addEventListener("load", ()=>{
+  insertarCanciones();
+})
 
-
-
-  const isEnd = ()=>{
-    const cancionesPorReproducir = songs.filter(function(s) {
-      return s.played === false;
-    });
-    return cancionesPorReproducir.length
-  }
-
-
-
-
-  window.addEventListener("click", e=>{
-    let $btn = e.target;
-    if($btn.matches("#nextBtn") && isEnd()){
-      stateBtn(false)
-      fadeOut(audio)
-      start() 
-      playSound()
-      $contCancion.classList.remove("mostrando")
-      setTimeout(()=>{
-        tirar()
-        
-        stateBtn(isEnd()>0)
-      },3500) 
-
+function insertarCanciones() {
+  const listaCanciones = document.getElementById('lcanciones');
+  const cancionesHTML = songs.map(function(s) {
+    let li = '<li class="lista';
+    if (s.played) {
+      li += ' played';
     }
-    if($btn.matches("#stop-btn")){
-      if (audio.paused) {
-        fadeIn(audio, 500); // Aumenta gradualmente el volumen del audio durante 1 segundo
-      } else {
-        fadeOut(audio, 500); // Reduce gradualmente el volumen del audio durante 1 segundo
-      }
-     
+    li += '">' + s.title + '</li>';
+    return li;
+  }).join('');
+  
+  listaCanciones.innerHTML = cancionesHTML;
+}
+
+function tirar(){
+  const cancionesPorReproducir = songs.filter(function(s) {
+    return s.played === false;
+  });
+
+  if(cancionesPorReproducir.length >= 1){
+    // Elegir canción 
+    const cancion = cancionesPorReproducir[aleatorio(0,cancionesPorReproducir.length-1)];
+    
+    // Reproducir canción
+    audio = new Audio(cancion.path);
+
+    if (cancion.hStart !== undefined && !isNaN(cancion.hStart)) {
+      audio.currentTime = cancion.hStart; 
+    } else {
+      audio.currentTime = aleatorio(20, 60); 
     }
+
+    fadeIn(audio);
     
-
-
-  })
-  
-  
-  
-  window.addEventListener("load", ()=>{
-    // Llama la función cuando se haya cargado completamente la página
-      insertarCanciones();
-  })
-
-
-  function insertarCanciones() {
-    const listaCanciones = document.getElementById('lcanciones');
-    // Agrega los títulos de las canciones filtradas a la lista
-    const cancionesHTML = songs.map(function(s) {
-      let li = '<li class="lista';
-      if (s.played) {
-        li += ' played';
-      }
-      li += '">' + s.title + '</li>';
-      return li;
-    }).join('');
+    // Actualizar estado
+    cancion.played = true;
+    songs[iCancionByPath(cancion.path)] = cancion;
     
-    listaCanciones.innerHTML = cancionesHTML;
+    // Actualizar lista
+    insertarCanciones();
+
+    // Actualizar título
+    $contCancion.innerHTML= cancion.title;
+    $contCancion.classList.add("mostrando")
   }
-  
-
-
-  function tirar(){
-    
-    
-    const cancionesPorReproducir = songs.filter(function(s) {
-      return s.played === false;
-    });
-    if(cancionesPorReproducir.length >= 1){// Animaciones previas
-
-      // Elegir canción 
-      const cancion = cancionesPorReproducir[aleatorio(0,cancionesPorReproducir.length-1)];
-      
-      // Reproducir canción
-      audio = new Audio(cancion.path);
-      audio.currentTime = 30; // Establecer inicio 
-      fadeIn(audio)
-      
-      // Actualizar el estado de la canción
-      cancion.played = true;
-      songs[iCancionByPath(cancion.path)] = cancion;
-      
-      // Actualizar la lista de canciones en el HTML
-      insertarCanciones();
-  
-      // Actualizar el título de la canción en el HTML
-      $contCancion.innerHTML= cancion.title;
-      $contCancion.classList.add("mostrando")
-    }
-    
-  }
-
-
-  
+}
